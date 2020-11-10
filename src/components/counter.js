@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
+import updateComponent from './higherordercomp'
 
-export default class Classcomp extends Component {
+
+ class Classcomp extends Component {
 
     constructor(props) {
         super(props)
@@ -16,9 +18,10 @@ export default class Classcomp extends Component {
         return (
             <div>
                 <button onClick={this.Increment}>clicked</button>
-                <h1>{count}</h1>
+        <h1>{this.props.name} Increment {count}</h1>
             </div>
         )
     }
 }
 
+export default updateComponent(Classcomp)

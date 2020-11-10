@@ -1,16 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Grid from '@material-ui/core/Grid';
-import './App.css';
 import ClassComp from "./components/counter"
+import Hovercomp from "./components/hovercouter"
 
-function App() {
+
+
+
+class App extends React.Component {
+  render(){
   return (
     <div className='container-fluid' className='App'>
       <ClassComp />
+      <Hovercomp />
     </div>
   );
+  }
 }
 
 export default App;
