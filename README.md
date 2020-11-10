@@ -77,4 +77,10 @@ npm install --save
 
 #to start the server and run 
 npm start
+
+#Using components
+counter -> increment onclick
+hovercomponent -> increment on hover
+higherordercom -> uage of props and knowing the higherordercomponet
+
 >>>>>>> 56d2a106c7d01813c71bf29b44ef5d1371fb0d91

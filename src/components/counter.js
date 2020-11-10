@@ -21,7 +21,7 @@ import updateComponent from './higherordercomp'
         <h1>{this.props.name} Increment {count}</h1>
             </div>
         )
-    }
+    }git 
 }
 
 export default updateComponent(Classcomp)
