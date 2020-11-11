@@ -83,4 +83,7 @@ counter -> increment onclick
 hovercomponent -> increment on hover
 higherordercom -> uage of props and knowing the higherordercomponet
 
+#Parent, pure and regcomp
+differnece beween purecomponents and regiral component -> purecomp is more efficeint prevents rerendering    
+
 >>>>>>> 56d2a106c7d01813c71bf29b44ef5d1371fb0d91
