@@ -78,6 +78,8 @@ npm install --save
 #to start the server and run 
 npm start
 
+import the App1.js in index .js to use
+
 #Using components
 counter -> increment onclick
 hovercomponent -> increment on hover
@@ -85,5 +87,11 @@ higherordercom -> uage of props and knowing the higherordercomponet
 
 #Parent, pure and regcomp
 differnece beween purecomponents and regiral component -> purecomp is more efficeint prevents rerendering    
+
+import App2.js in index.js to study about props
+
+#Usage of Props 
+functionalprops.js -> passing the props to functional component
+classprops.js -> passing the props to class component
 
 >>>>>>> 56d2a106c7d01813c71bf29b44ef5d1371fb0d91
