@@ -94,4 +94,8 @@ import App2.js in index.js to study about props
 functionalprops.js -> passing the props to functional component
 classprops.js -> passing the props to class component
 
+import App.js in index.js to use the sample app to subscribe
+#using states and props to know the differnece
+
+
 >>>>>>> 56d2a106c7d01813c71bf29b44ef5d1371fb0d91

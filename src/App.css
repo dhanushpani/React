@@ -1,19 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
-
-.heading:{
-  font-family: 'Roboto Slab', serif;
-  padding-left: 40%;
-}
-.content{
-  padding-top: 10%;
-  padding-left: 10%;
-  font-family: 'Roboto Slab', serif;
-  font-size: 30px;
-  ;
-}
-.image{
-  padding-top:40px;
-  height: 800;
-  
+.App{
+  position: fixed;
+  left: 10%;
 }

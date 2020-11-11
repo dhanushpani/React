@@ -1,18 +1,20 @@
 import React from 'react';
-import Classprops from "./components/classprops"
-import FunctionalProps from "./components/functionalprops"
+import './App.css'
+import './SampleAppComponents/NewCompnents'
+import NewCompnents from './SampleAppComponents/NewCompnents';
 
 class App extends React.Component {
+
+  styles={
+    fontStyle : "bold",
+    color : "blue",
+    alignText : "center"
+  }
   render(){
   return (
-    <div className='container-fluid' className='App'>
-     <Classprops name ={"Aakash"} place ={"Bangalore"}>child components</Classprops>
-     <Classprops name ={"Avinash"} place ={"Pune"}>
-        <button>CLick</button>
-       </Classprops>
-     <Classprops name = {"Dhanush"} place ={"Rajasthan"}>
-       <FunctionalProps name ={"Rani"} place = {"mysore"}></FunctionalProps>
-     </Classprops>
+    <div class="App">
+      <h1 style = {this.styles}> Welcome</h1> 
+      <NewCompnents />
     </div>
   );
   }
